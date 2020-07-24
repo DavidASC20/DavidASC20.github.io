@@ -1,0 +1,43 @@
+body{
+    background-color: #383d39;
+    animation-name: colorchange;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.intro{
+    border: 10px solid gray;
+    background-color: #797070;
+    
+}
+
+.Name{ 
+    text-align: center;
+    color: honeydew;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 30px;
+    
+}
+
+.abtMe{
+    width: 40%;
+    color: honeydew;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+}
+
+@keyframes colorchange {
+    0%  {background-color: #383d39;}
+    25% {background-color: #565956}
+    50% {background-color: #4f584f}
+    75% {background-color: #2a332a;}
+    100%{background-color: #383d39;}
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    color: honeydew;
+    font-family: 'Hind Vadodara', sans-serif;
+}
