@@ -1,43 +1,72 @@
-body{
-    background-color: #383d39;
-    animation-name: colorchange;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+body {
+    background-color: #f5e0f0;
 }
 
-.intro{
-    border: 10px solid gray;
-    background-color: #797070;
-    
-}
 
-.Name{ 
-    text-align: center;
-    color: honeydew;
-    font-family: 'Hind Vadodara', sans-serif;
-    font-size: 30px;
-    
-}
-
-.abtMe{
-    width: 40%;
-    color: honeydew;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 20px;
-}
-
-@keyframes colorchange {
-    0%  {background-color: #383d39;}
-    25% {background-color: #565956}
-    50% {background-color: #4f584f}
-    75% {background-color: #2a332a;}
-    100%{background-color: #383d39;}
-}
-
-#contact{
+#beginning {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+
+#title {
+    font-size: 50px;
+    font-family: 'Jaldi', sans-serif;
+    color: #422b1e
+}
+
+#blurb{
+    width: fit-content;
+    background-color: rgb(236, 170, 236);
+}
+
+.abtme{
+    margin-top: 30px;
+    padding: 40px 20px 40px 20px;
+    width: 40%;
+    background-color: #eccf91;
+    border: 3px cadetblue solid;
+}
+
+.skillsHobbies{
+    margin-top: 30px;
+    padding: 40px 20px 40px 20px;
+    width: 40%;
+    background-color: #eccf91;
+    border: 3px cadetblue solid;
+}
+
+.introductions{
+    display:flex;
+    justify-content: space-evenly;
     align-self: flex-end;
-    color: honeydew;
-    font-family: 'Hind Vadodara', sans-serif;
+}
+.contacts {
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media(max-width: 480px) {
+    .introductions{
+        flex-direction: column;
+        align-items: center;
+    }
+    .introText{
+        font-size: 15px;
+    }
+
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: blue;
+    text-align: center;
+    background-color: #575450;
 }
