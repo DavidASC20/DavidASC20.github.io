@@ -1,72 +1,93 @@
-body {
-    background-color: #f5e0f0;
+
+body{
+    background-color: #0c0d0f;
+    margin: 0;
+    padding : 0;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo{
+display: inline;
+margin-left: 10px;
+width : 5%;
+border-right:2px #f4f4f4 solid;
+}
+
+.header{
+background-color:#0c0d0f;
+display: flex;
+align-items: center;
+margin-left: 1%;
+margin-right: 3%;
+color: white;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+}
+
+.introPic{
+width: 100%;
+height: 1000px;
+background-image: url('https://michiganross.umich.edu/sites/default/files/images/blog/blau_exterior.jpg');
+background-size: cover;
+filter:brightness(0.8);
+opacity:(0.8);
 }
 
 
-#beginning {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
+.text{
+margin: 10%;
+color: #f4f4f4;
 }
 
-
-
-#title {
-    font-size: 50px;
-    font-family: 'Jaldi', sans-serif;
-    color: #422b1e
+.heading{
+font-size : 50px;
+font-family: 'Bebas Neue', cursive;
 }
 
-#blurb{
-    width: fit-content;
-    background-color: rgb(236, 170, 236);
+.bottom{
+text-align: center;
 }
 
-.abtme{
-    margin-top: 30px;
-    padding: 40px 20px 40px 20px;
-    width: 40%;
-    background-color: #eccf91;
-    border: 3px cadetblue solid;
-}
-
-.skillsHobbies{
-    margin-top: 30px;
-    padding: 40px 20px 40px 20px;
-    width: 40%;
-    background-color: #eccf91;
-    border: 3px cadetblue solid;
-}
-
-.introductions{
-    display:flex;
-    justify-content: space-evenly;
-    align-self: flex-end;
-}
-.contacts {
-    margin-top: 100px;
-    text-align: center;
-}
-
-@media(max-width: 480px) {
-    .introductions{
-        flex-direction: column;
-        align-items: center;
-    }
-    .introText{
-        font-size: 15px;
-    }
+.logoText{
+border-radius: 1px;
+border-color: #f4f4f4;
+margin-left: 2%;
 
 }
 
 
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: blue;
-    text-align: center;
-    background-color: #575450;
+.left{
+display: flex;
+align-items: center;
 }
+
+.right{
+display: flex;
+justify-content:space-between;
+text-align: right;
+}
+
+a:link{
+color:white;
+}
+a:visited{
+color: white;
+text-decoration: none;
+}
+a:hover, a:focus{
+color:gray;
+text-decoration: underline;
+}
+A:active{
+color: white;
+}
+.info{
+margin-right: 50px;
+}
+.icons{
+display: flex;
+justify-content: space-around;
+font-size: 100px;
+}
+
