@@ -1,0 +1,93 @@
+
+body{
+    background-color: #0c0d0f;
+    margin: 0;
+    padding : 0;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo{
+display: inline;
+margin-left: 10px;
+width : 5%;
+border-right:2px #f4f4f4 solid;
+}
+
+.header{
+background-color:#0c0d0f;
+display: flex;
+align-items: center;
+margin-left: 1%;
+margin-right: 3%;
+color: white;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+}
+
+.introPic{
+width: 100%;
+height: 1000px;
+background-image: url('https://michiganross.umich.edu/sites/default/files/images/blog/blau_exterior.jpg');
+background-size: cover;
+filter:brightness(0.8);
+opacity:(0.8);
+}
+
+
+.text{
+margin: 10%;
+color: #f4f4f4;
+}
+
+.heading{
+font-size : 50px;
+font-family: 'Bebas Neue', cursive;
+}
+
+.bottom{
+text-align: center;
+}
+
+.logoText{
+border-radius: 1px;
+border-color: #f4f4f4;
+margin-left: 2%;
+
+}
+
+
+.left{
+display: flex;
+align-items: center;
+}
+
+.right{
+display: flex;
+justify-content:space-between;
+text-align: right;
+}
+
+a:link{
+color:white;
+}
+a:visited{
+color: white;
+text-decoration: none;
+}
+a:hover, a:focus{
+color:gray;
+text-decoration: underline;
+}
+A:active{
+color: white;
+}
+.info{
+margin-right: 50px;
+}
+.icons{
+display: flex;
+justify-content: space-around;
+font-size: 100px;
+}
+
